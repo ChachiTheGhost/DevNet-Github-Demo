@@ -14,9 +14,9 @@ from database import Database
 app = Flask(__name__)
 
 # Toggle between JSON, YAML, and XML for testing
-# path = "getting-started-software-development-cisco-devnet/03/demos/m3/data/db.yml"
-path = "getting-started-software-development-cisco-devnet/03/demos/m3/data/db.xml"
-# path = "getting-started-software-development-cisco-devnet/03/demos/m3/data/db.json"
+# path = "data/db.yml"
+path =   "data/db.xml"
+# path = "data/db.json"
 db = Database(path)
 
 
